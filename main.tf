@@ -4,7 +4,7 @@ provider "aws" {
 
 resources "aws_instance" "foo" {
   count = 4 
-  ami           = "ami-05fa00d4c63e32376" # us-west-2
+  ami           = "ami-01c647eace872fc02"
   instance_type = "t2.micro"
   tags = {
       Name = "TF-Instance"
